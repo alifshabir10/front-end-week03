@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import {map} from ''
 
 
@@ -13,9 +13,9 @@ const Sidebar = (props) => {
         menus.map(value => {
           return (
             <li>
-              <a href={value.path}>
+              <Link to={value.path} className="nav-side-link">
                 #{value.id}-{value.name}
-              </a>
+              </Link>
             </li>
           );
         })

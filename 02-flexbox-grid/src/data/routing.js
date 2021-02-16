@@ -16,8 +16,15 @@ export const sidemus = [
     },
     {
         id:3,
-        path: '/todo',
-        name: 'Todo',
+        path: '/rating',
+        name: 'rating',
+        exact: true,
+        component: null
+    },
+    {
+        id:4,
+        path: '/Movies',
+        name: 'Movies',
         exact: true,
         component: null
     }

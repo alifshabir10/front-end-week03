@@ -17,7 +17,9 @@
   top: 0;
 }
 /* ./home {} */
-
+.nav-top li a{
+  align-items: right;
+}
 .nav-top ul {
   display: flex;
   align-items: left;

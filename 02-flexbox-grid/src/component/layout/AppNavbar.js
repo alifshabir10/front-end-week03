@@ -10,7 +10,7 @@ const AppNavbar = () => {
           </a>
         </li>
         <li>
-          <a class="right" href="/home">
+          <a  href="/home">
             Home
           </a>
         </li>
