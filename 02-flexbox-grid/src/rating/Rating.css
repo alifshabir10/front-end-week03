@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #115885;
+    background-color: #0e2f44;
     color: #ffffff;
     font-family: "Jaldi", sans-serif;
     padding: 1rem;
@@ -59,7 +59,7 @@
    }
    .title-rating > h2{
     margin-top: 0;
-    color: #fef65b;
+    color: #8b8512;
    }
    .title-rating p {
     font-size: .65rem;

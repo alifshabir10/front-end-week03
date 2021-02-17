@@ -23,7 +23,7 @@ const Movie = (props) => {
             </span>
           </div>
           <div className="rating-star">
-            <span style={{ width: 18, height: 18, color: "#ffd700" }}>
+            <span style={{ width: 18, height: 18, color: "#eccd40" }}>
               <Icon icon={star} />
             </span>
             <span className="rating">{props.rating}</span>
